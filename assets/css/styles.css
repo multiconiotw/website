@@ -1,0 +1,138 @@
+:root{
+    --gradient: linear-gradient( 90deg,#000428 , #004e92, #000428)
+}
+
+*{
+    
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    border: none; outline: none;
+    text-decoration: none;
+    text-transform:capitalize;
+    transition: all .2s linear; 
+    
+}
+*::selection{
+    background:#a14f94;
+    color:#fff;
+}
+section{
+    min-height: 100vh;
+    padding:1rem 7%;
+    padding-top:6rem;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-color: #333;
+}
+html::-webkit-scrollbar{
+    width:1.5rem;
+    
+}
+
+html::-webkit-scrollbar-track{
+    background:rgb(0, 7, 49);
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(#000428 , #004e92, #000428, #141414);
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+   padding:1.5rem 7%;
+   background:var(--gradient);
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+
+.navbar .container{
+    color: #fff;
+    position: relative;
+    font-size: 3rem;
+    letter-spacing: 0.24rem;
+    width: 100%;
+     font-family:'Courier New', Courier, monospace;
+     font-weight: bolder;
+    
+    line-height: 0.70rem;
+    outline: none;
+    animation: shivansh 5s linear infinite;
+}
+@keyframes shivansh{
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    {
+      color: var(--gradient);
+         text-shadow: none;
+    } 
+    18.1%, 20.1%, 30%, 50%,60.1%, 65%, 80.1%, 90%, 92.1%, 100%
+    {
+        color: rgb(247, 238, 238);
+        text-shadow: 0 0 10px #f7f302,
+        0 0 20px #ffee00,
+        0 0 40px #e6ff02,
+        0 0 80px #fffb00,
+        0 0 160px #cdfa2a;
+    }
+  }
+
+.intro h2{
+    position: relative;
+    font-size: 4vw;
+    letter-spacing: 0.5rem;
+    width: 100%;
+     font-family: 'Courier New', Courier, monospace;
+    color: pink;
+    line-height: 2.5rem;
+    outline: none;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #f00129);
+    
+}
+
+.intro p{
+    font-family: 'Courier New', Courier, monospace;
+  font-size: 1.9rem;
+  color: rgb(255, 254, 254);
+  
+  font-weight: bolder;
+  
+}
+
+.home{
+    background-color: #000000;
+}
+
+
+.home9987{
+    background-color: #000000;
+}
+.home h1{
+    color:#b4199a;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 3rem;
+    
+    
+}
+
+.home p{
+    color: #bcff65;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.home ol{
+    font-size: 1.4rem;
+    color: #ff657e;
+    font-family: cursive;
+}
